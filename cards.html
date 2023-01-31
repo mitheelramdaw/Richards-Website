@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport"
+			content="width=device-width, initial-scale=1">
+    <script src="/Flashcard.js"></script>   
+
+	<!-- CSS code -->
+	<style>
+        body{
+           
+           background-color:#212121 ;
+        }
+
+		h1 {
+			color: black;
+            margin-block: 12vh;
+		}
+		a {
+			color: purple;
+			text-decoration: none;
+		}
+		.card {
+			background-color: transparent;
+			width: 250px;
+			height: 250px;
+			perspective: 1000px;
+            position: relative;
+            margin-left: 5vh;
+		}
+		.card-inner {
+			position: relative;
+			width: 100%;
+			height: 100%;
+			text-align: center;
+			transition: transform 0.6s;
+			transform-style: preserve-3d;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		}
+		.card:hover .card-inner {
+			transform: rotateY(180deg);
+            box-shadow:  0.5vh 0.5vh 0.5vh #49fb35;
+		}
+		.card-front, .card-back {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			backface-visibility: hidden;
+            border-radius: 1vh;
+            box-shadow: 0.5vh 0.5vh 0.5vh 0.5vh #49fb35;
+		}
+		.card-front {
+			background-color: #bbb;
+			color: black;
+		}
+		.card-back {
+			background-color: black;
+			transform: rotateY(180deg);
+            color: #bbb;
+		}
+        .line-one{
+            display: inline-flex;
+            margin-bottom: 5vh;
+            margin-left: 13vh;
+        }
+        .line-two{
+            display: inline-flex;
+            margin-bottom: 5vh;
+            margin-left: 13vh;
+        }
+        .line-three{
+            display: inline-flex;
+            margin-left: 13vh;
+            
+        }
+	</style>
+</head>
+
+<body>
+   <div class="line-one">
+	<center>
+		<div class="card">
+			<div class="card-inner">
+				<div class="card-front">
+					<h1>TOPIC</h1>
+				</div>
+				
+				<div class="card-back">
+					<p>Enter information, create new p for next point</p>
+					
+				</div>
+			</div>
+		</div>
+	</center>
+
+
+    <center>
+		<div class="card">
+			<div class="card-inner">
+				<div class="card-front">
+					<h1>TOPIC</h1>
+				</div>
+				
+				<div class="card-back">
+					<p>Enter information, create new p for next point</p>
+					
+				</div>
+			</div>
+		</div>
+	</center>
+
+    <center>
+		<div class="card">
+			<div class="card-inner">
+				<div class="card-front">
+					<h1>TOPIC</h1>
+				</div>
+				
+				<div class="card-back">
+					<p>Enter information, create new p for next point</p>
+					
+				</div>
+			</div>
+		</div>
+	</center>
+    <center>
+		<div class="card">
+			<div class="card-inner">
+				<div class="card-front">
+					<h1>TOPIC</h1>
+				</div>
+				
+				<div class="card-back">
+					<p>Enter information, create new p for next point</p>
+					
+				</div>
+			</div>
+		</div>
+	</center>
+ </div>  
+    
+
+ <div class="line-two">
+	<center>
+		<div class="card">
+			<div class="card-inner">
+				<div class="card-front">
+					<h1>TOPIC</h1>
+				</div>
+				
+				<div class="card-back">
+					<p>Enter information, create new p for next point</p>
+					
+				</div>
+			</div>
+		</div>
+	</center>
+
+
+    <center>
+		<div class="card">
+			<div class="card-inner">
+				<div class="card-front">
+					<h1>TOPIC</h1>
+				</div>
+				
+				<div class="card-back">
+					<p>Enter information, create new p for next point</p>
+					
+				</div>
+			</div>
+		</div>
+	</center>
+
+    <center>
+		<div class="card">
+			<div class="card-inner">
+				<div class="card-front">
+					<h1>TOPIC</h1>
+				</div>
+				
+				<div class="card-back">
+					<p>Enter information, create new p for next point</p>
+					
+				</div>
+			</div>
+		</div>
+	</center>
+    <center>
+		<div class="card">
+			<div class="card-inner">
+				<div class="card-front">
+					<h1>TOPIC</h1>
+				</div>
+				
+				<div class="card-back">
+					<p>Enter information, create new p for next point</p>
+					
+				</div>
+			</div>
+		</div>
+	</center>
+ </div>
+
+ <div class="line-three">
+	<center>
+		<div class="card">
+			<div class="card-inner">
+				<div class="card-front">
+					<h1>TOPIC</h1>
+				</div>
+				
+				<div class="card-back">
+					<p>Enter information, create new p for next point</p>
+					
+				</div>
+			</div>
+		</div>
+	</center>
+
+
+    <center>
+		<div class="card">
+			<div class="card-inner">
+				<div class="card-front">
+					<h1>TOPIC</h1>
+				</div>
+				
+				<div class="card-back">
+					<p>Enter information, create new p for next point</p>
+					
+				</div>
+			</div>
+		</div>
+	</center>
+
+    <center>
+		<div class="card">
+			<div class="card-inner">
+				<div class="card-front">
+					<h1>TOPIC</h1>
+				</div>
+				
+				<div class="card-back">
+					<p>Enter information, create new p for next point</p>
+					
+				</div>
+			</div>
+		</div>
+	</center>
+    <center>
+		<div class="card">
+			<div class="card-inner">
+				<div class="card-front">
+					<h1>TOPIC</h1>
+				</div>
+				
+				<div class="card-back">
+					<p>Enter information, create new p for next point</p>
+					
+				</div>
+			</div>
+		</div>
+	</center>
+ </div>
+</body>
+
+</html>
